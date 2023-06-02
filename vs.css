@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff200;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: none;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: none;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .buy {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .sell {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #rsi-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #rsi-usd, #rsi-btc {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #t_data tr {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #t_data td {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #t_data tr:last-child td {
+    border-bottom: none;
+  }
+  
